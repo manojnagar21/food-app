@@ -4,6 +4,6 @@ services:
     name: food-app
     plan: free
     buildCommand: npm run build
-    startCommand: npm start
+    startCommand: npm run start
     branch: main
     autoDeploy: true
