@@ -3,7 +3,7 @@ services:
     runtime: node
     name: food-app
     plan: free
-    buildCommand: npm install
+    buildCommand: npm run build
     startCommand: npm start
     branch: main
     autoDeploy: true
