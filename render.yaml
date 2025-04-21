@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: node
+    name: food-app
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    branch: main
+    autoDeploy: true
