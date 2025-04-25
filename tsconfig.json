@@ -10,7 +10,6 @@
       "allowImportingTsExtensions": true,
       "noEmit": true,
       "forceConsistentCasingInFileNames": true,
-      "outDir": "dist",
     },
     "baseUrl": "."
   }
