@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin: "https://food-jkl2wghpx-mritunjay-natwarlal-nagars-projects.vercel.app",
+    origin: process.env.BACKEND_API_URL,
     credentials: true,
 };
 app.use(cors(corsOptions));

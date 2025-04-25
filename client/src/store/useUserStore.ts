@@ -4,7 +4,9 @@ import axios from "axios";
 import { LoginInputState, SignupInputState } from "@/schema/userSchema";
 import { toast } from "sonner";
 axios.defaults.withCredentials = true;
-const API_END_POINT = 'https://food-jkl2wghpx-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/user';
+import dotenv from "dotenv";
+dotenv.config();
+const API_END_POINT = process.env.BACKEND_API_URL+'/api/v1/user';
 
 type User = {
     fullname: string;

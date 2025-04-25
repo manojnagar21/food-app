@@ -3,8 +3,10 @@ import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { useRestaurantStore } from "./useRestaurantStore";
+import dotenv from "dotenv";
+dotenv.config();
 
-const API_END_POINT = 'https://food-jkl2wghpx-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/menu';
+const API_END_POINT = process.env.BACKEND_API_URL+'/api/v1/menu';
 type MenuState = {
     loading: boolean;
     menu: null;
