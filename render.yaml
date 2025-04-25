@@ -3,7 +3,7 @@ services:
     runtime: node
     name: food-app
     plan: free
-    buildCommand: npm install && npm run build
+    buildCommand: node --max_old_space_size=1024 node_modules/.bin/tsc
     startCommand: npm run start
     branch: main
     autoDeploy: true
