@@ -10,7 +10,7 @@
       "allowImportingTsExtensions": true,
       "noEmit": true,
       "forceConsistentCasingInFileNames": true,
-      "outDir": "dist",
+      "outDir": "client/dist",
     },
     "baseUrl": "."
   }
