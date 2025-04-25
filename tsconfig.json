@@ -11,6 +11,6 @@
       "noEmit": true,
       "forceConsistentCasingInFileNames": true,
       "outDir": "dist",
+      "baseUrl": "."
     },
-    "baseUrl": "."
   }
