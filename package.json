@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "node server/index.ts",
     "stripe": "stripe listen -- forward-to localhost:8000/api/v1/order/webhook",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build": "tsc",
+    "start": "node dist/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.ts"
+    "starta": "node server/index.ts"
   },
   "keywords": [],
   "author": "",
