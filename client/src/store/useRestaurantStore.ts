@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-const API_END_POINT = 'https://food-app-swart-iota.vercel.app/api/v1/restaurant';
+const API_END_POINT = 'https://food-jkl2wghpx-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/restaurant';
 
 axios.defaults.withCredentials = true;
 

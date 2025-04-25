@@ -4,7 +4,7 @@ import axios from "axios";
 import { LoginInputState, SignupInputState } from "@/schema/userSchema";
 import { toast } from "sonner";
 axios.defaults.withCredentials = true;
-const API_END_POINT = 'https://food-app-swart-iota.vercel.app/api/v1/user';
+const API_END_POINT = 'https://food-jkl2wghpx-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/user';
 
 type User = {
     fullname: string;
