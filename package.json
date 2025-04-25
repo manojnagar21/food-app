@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon server/index.ts",
     "stripe":"stripe listen --forward-to localhost:8000/api/v1/order/webhook",
-    "build":"node --max-old-space-size=1024 ./node_modules/typescript/bin/tsc npm install && npm install --prefix client && npm run build --prefix client",
+    "build":"node --max-old-space-size=1024 ./node_modules/typescript/bin/tsc && npm install && npm install --prefix client && npm run build --prefix client",
     "start":"nodemon --max-old-space-size=1024 server/index.ts"
   },
   "keywords": [],
