@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin: process.env.BACKEND_API_URL,
+    origin: process.env.FRONTEND_URL,
     credentials: true,
 };
 app.use(cors(corsOptions));
