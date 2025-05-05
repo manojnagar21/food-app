@@ -5,7 +5,7 @@ import { createJSONStorage, persist } from "zustand/middleware";
 // import dotenv from "dotenv";
 // dotenv.config();
 
-const API_END_POINT: string = 'https://food-mrjyyvgpc-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/order';
+const API_END_POINT: string = 'https://food-9gftxqt75-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/order';
 axios.defaults.withCredentials = true;
 
 export const useOrderStore = create<OrderState>()(persist((set => ({
