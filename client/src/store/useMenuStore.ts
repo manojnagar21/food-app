@@ -6,7 +6,7 @@ import { useRestaurantStore } from "./useRestaurantStore";
 // import dotenv from "dotenv";
 // dotenv.config();
 
-const API_END_POINT = 'food-app-theta-gray.vercel.app/api/v1/menu';
+const API_END_POINT = 'https://food-app-theta-gray.vercel.app/api/v1/menu';
 type MenuState = {
     loading: boolean;
     menu: null;
