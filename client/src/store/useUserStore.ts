@@ -4,9 +4,9 @@ import axios from "axios";
 import { LoginInputState, SignupInputState } from "@/schema/userSchema";
 import { toast } from "sonner";
 axios.defaults.withCredentials = true;
-import dotenv from "dotenv";
-dotenv.config();
-const API_END_POINT = process.env.BACKEND_API_URL+'/api/v1/user';
+// import dotenv from "dotenv";
+// dotenv.config();
+const API_END_POINT = 'http://localhost:8000/api/v1/user';
 
 type User = {
     fullname: string;

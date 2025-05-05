@@ -2,10 +2,10 @@ import { CheckoutSessionRequest, OrderState } from "@/types/orderType";
 import axios from "axios";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import dotenv from "dotenv";
-dotenv.config();
+// import dotenv from "dotenv";
+// dotenv.config();
 
-const API_END_POINT: string = process.env.BACKEND_API_URL+'/api/v1/order';
+const API_END_POINT: string = 'http://localhost:8000/api/v1/order';
 axios.defaults.withCredentials = true;
 
 export const useOrderStore = create<OrderState>()(persist((set => ({

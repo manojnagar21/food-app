@@ -3,10 +3,10 @@ import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { useRestaurantStore } from "./useRestaurantStore";
-import dotenv from "dotenv";
-dotenv.config();
+// import dotenv from "dotenv";
+// dotenv.config();
 
-const API_END_POINT = process.env.BACKEND_API_URL+'/api/v1/menu';
+const API_END_POINT = 'http://localhost:8000/api/v1/menu';
 type MenuState = {
     loading: boolean;
     menu: null;
