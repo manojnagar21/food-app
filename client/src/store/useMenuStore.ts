@@ -6,7 +6,7 @@ import { useRestaurantStore } from "./useRestaurantStore";
 // import dotenv from "dotenv";
 // dotenv.config();
 
-const API_END_POINT = 'http://localhost:8000/api/v1/menu';
+const API_END_POINT = 'https://food-mrjyyvgpc-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/menu';
 type MenuState = {
     loading: boolean;
     menu: null;
