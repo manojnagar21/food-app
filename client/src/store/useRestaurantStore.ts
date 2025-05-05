@@ -6,7 +6,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 // import dotenv from "dotenv";
 // dotenv.config();
-const API_END_POINT = 'https://food-9gftxqt75-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/restaurant';
+const API_END_POINT = 'food-app-theta-gray.vercel.app/api/v1/restaurant';
 
 axios.defaults.withCredentials = true;
 

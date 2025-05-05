@@ -6,7 +6,7 @@ import { toast } from "sonner";
 axios.defaults.withCredentials = true;
 // import dotenv from "dotenv";
 // dotenv.config();
-const API_END_POINT = 'https://food-9gftxqt75-mritunjay-natwarlal-nagars-projects.vercel.app/api/v1/user';
+const API_END_POINT = 'food-app-theta-gray.vercel.app/api/v1/user';
 
 type User = {
     fullname: string;
